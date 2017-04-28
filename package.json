@@ -1,0 +1,27 @@
+{
+  "name": "appium-test",
+  "version": "1.0.0",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "chai-as-promised": "^5.0.0",
+    "colors": "^1.0.3",
+    "express": "^4.12.3",
+    "mocha": "^2.4.5",
+    "q": "^2.0.2",
+    "underscore": "^1.8.3",
+    "wd": "^0.3.11"
+  },
+  "scripts": {
+    "clear": "adb shell pm clear com.package.appname;",
+    "test": "mocha --opts mocha.opts"
+  },
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "babel-core": "^6.18.2",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.16.1",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
